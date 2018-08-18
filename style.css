@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Muli|PT+Serif");
+body {
+  text-align: center;
+  background: #69f0ae;
+  color: #004400;
+  font-family: "Muli", sans-serif;
+}
+
+h1,
+h2 {
+  text-shadow: -1px -1px 1px lime;
+}
+
+svg {
+  background: #44ff44;
+  font-size: 25px;
+}
+
+#tooltip {
+  position: absolute;
+  display: none;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 18px;
+  background: #88ff44;
+  border: green 3px solid;
+  border-radius: 20px;
+}
+
+svg > text, #legend {
+  text-anchor: middle;
+  fill: black;
+  stroke: #004400;
+}
+
+g {
+  font-family: "PT Serif", "Muli" serif;
+  font-size: 16px;
+  stroke: #004400;
+}
+
+line,
+path {
+  stroke: #004400;
+  stroke-width: 3px;
+}
